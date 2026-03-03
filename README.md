@@ -1,16 +1,24 @@
-# pokedex
+# Pokédex
 
-A new Flutter project.
+App Pokédex completa desarrollada con Flutter e integración total de la PokeAPI.
 
-## Getting Started
+## Características
 
-This project is a starting point for a Flutter application.
+- **Pokémon**: Lista paginada, búsqueda por nombre, detalle completo con estadísticas y cadenas de evolución
+- **Tipos**: Filtro por tipo con relaciones de daño
+- **Habilidades, Movimientos, Objetos, Bayas**: Catálogos completos
+- **Ubicaciones, Regiones, Generaciones**: Exploración del mundo Pokémon
+- **Perfil de usuario**: Foto, nombre, configuración persistente
+- **Temas**: Claro, oscuro, alto contraste, AMOLED
+- **Splash screen** y **SharedPreferences** para persistencia
 
-A few resources to get you started if this is your first Flutter project:
+## Requisitos
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK ^3.7.0
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ejecutar
+
+```bash
+flutter pub get
+flutter run
+```
